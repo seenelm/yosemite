@@ -1,0 +1,45 @@
+.main {
+  position: relative;
+  min-height: 100vh;
+  padding-left: var(--nav-border-width);
+  overflow-y: auto;
+  background-color: #303841;
+  width: 100%;
+  flex-direction: column; 
+  padding-top: 50px; 
+}
+
+.mainContainer {
+  display: flex; 
+  justify-content: flex-start;
+  flex: 1; 
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.grabData {
+  background-color: #36404A;
+  border-radius: 3px;
+  padding: 15px;
+}
+
+.pieChart {
+  background-color: #36404A;
+  border-radius: 3px;
+  padding: 15px;
+}
+
+.spacer {
+  padding: 10px;
+}
+
+.totalCases {
+  background-color: #36404A;
+  border-radius: 3px;
+  padding: 15px;
+}

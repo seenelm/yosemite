@@ -1,0 +1,63 @@
+.top {
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 20px;
+  }
+  
+  .tile {
+    background-color: #36404A;
+    width: 25%;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    border-radius: 3px;
+  }
+  
+  
+h2 {
+    color: #ACBFD2;
+    margin-top: 5px;
+}
+
+h1 {
+  color: #ACBFD2;
+}
+
+  .title {
+    display: flex;
+    align-items: center;
+  }
+  .title h1 {
+    margin-right: 10px;
+  }
+  
+  .tile i {
+    font-size: 45px;
+    color: #ACBFD2;
+  }
+
+  .tile:last-child {
+    padding-right: 20px;
+  }
+
+  .mainTiles {
+    padding-top: 50px;
+  }
+  
+  .mainTiles h1 {
+    animation: number-scrolling 1s linear forwards;
+  }
+  
+  @keyframes number-scrolling {
+    0% {
+      transform: translateY(-100%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  

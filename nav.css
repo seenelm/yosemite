@@ -1,0 +1,89 @@
+html,body{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav {
+    width: 270px;
+    background-color: #37424C;
+    transition: width 0.2s;
+    flex-shrink: 0;
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  .nav--collapsed {
+    width: var(--nav-icon-width);
+    transition: width 0.2s;
+    background-color: #37424C;
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  .nav--collapsed .navlabel {
+    display: none;
+  }
+
+  .navIcon {
+    font-size: 40px;
+    color: #ACBFD2;
+  }
+  
+  .navlink {
+    display: flex;
+    align-items: center;
+    color: rgba(0,0,0,0.75);
+    text-decoration: none;
+    width: 100%;
+  }
+  
+  .navlink:hover {
+    background-color: #003B73;
+  }
+  
+  .naviconcontainer {
+    width: var(--nav-icon-width);
+    height: var(--nav-border-width);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+
+  .logo {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .nav--collapsed .logo {
+    visibility: hidden;
+    transition: width 0.2s;
+  }
+
+  .nav .logo1 {
+    visibility: hidden;
+    height: 0;
+    width: 0;
+    transition: width 0.2s;
+  }
+
+  .logo1 {
+    max-width: 100%;
+    max-height: 100%;
+    margin: 1px;
+  }
+
+  .logoContainer {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .spacing {
+    height: 30px;
+  }
+
+  .navlabel {
+    color: #ACBFD2;
+    font-size: x-large;
+  }

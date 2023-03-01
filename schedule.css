@@ -1,0 +1,170 @@
+.schedulecontainer {
+  display: flex;
+  flex-wrap: wrap;
+  padding-right: 30px;
+  margin-top: 10%;
+  justify-content: flex-end;
+}
+
+.navigator  {
+  display: flex;
+  justify-content: flex-end;
+  width: 88.5%;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+
+}
+
+th, td {
+  border: 1px solid gray;
+  padding: 8px;
+}
+
+td {
+  border: 1px solid gray;
+  padding: 8px;
+  color: black;
+  justify-content: center;
+  align-items: center;
+
+}
+
+span {
+  display: inline-block;
+  padding: 5px 10px;
+  text-align: center;
+  border-radius: 4px;
+  
+}
+
+span.AM {
+  background-color: #F7B2B3;
+  color: black;
+  width: 80%;
+}
+
+span.AM:hover{
+  background-color: #EE6666;
+}
+
+span.FL {
+  background-color: #D0F9BA;
+  color: black;
+  width: 80%;
+}
+span.FL:hover {
+  background-color: #9BF06E;
+}
+
+span.PM {
+  background-color: #C5E4FE;
+  color: black;
+  width: 80%;
+}
+
+span.PM:hover {
+  background-color: #8CCDFE;
+}
+
+span.EF {
+  background-color: pink;
+  color: white;
+}
+
+span.LF {
+  background-color: orange;
+  color: white;
+}
+
+span.OOO {
+  background-color: red;
+  color: white;
+}
+
+th {
+  border: 1px solid gray;
+  padding: 8px;
+  background-color: white;
+  color: black;
+  text-align: left;
+}
+
+tr {
+  background-color: white;
+  color: black;
+}
+
+
+button {
+  background-color: white;
+  color: black;
+  border: 1px solid gray;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: gray;
+  color: white;
+}
+
+div {
+  color: black;
+}
+
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  box-shadow: 0 0 10px gray;
+  z-index: 1000;
+}
+
+.popup button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  background-color: white;
+  color: black;
+  border: 1px solid gray;
+  padding: 8px 16px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.popup button:hover {
+  background-color: gray;
+  color: white;
+}
+
+.popup button:nth-of-type(3),
+.popup button:nth-of-type(6) {
+  margin-top: 10px;
+}
+
+.scheduleTitle {
+  color: #ACBFD2;
+  font-size: 50px;
+}
+
+.scheduleBtn {
+  margin-left: 10px;
+  background-color: transparent;
+  color: #ACBFD2;
+  border: none;
+}
+
+.prof {
+  width: 40px;
+  height: 40px;
+  padding-right: 5px;
+}
